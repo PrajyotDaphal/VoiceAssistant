@@ -25,6 +25,7 @@ You need to add more task then add tasks in **task** file and make a query in ma
 
 9.pywikihow
 
-***task file required net.......***
+***task file required internet.......***
 Run.
+
 
