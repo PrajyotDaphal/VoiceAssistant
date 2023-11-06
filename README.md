@@ -1,4 +1,4 @@
-# VoiceAssistant.py
+# VoiceAssistant
 
 ![images](https://user-images.githubusercontent.com/87372653/176653307-f2d7d427-501f-4445-9f54-af1ebb865dce.jpg)
 
