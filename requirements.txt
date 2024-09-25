@@ -1,17 +1,17 @@
-json
+pip install json
 
-torch
+pip install torch
 
-random
+pip install random
 
-numpy
+pip install numpy
 
-nltk
+pip install nltk
 
-pyttsx3
+pip install pyttsx3
 
-requests
+pip install requests
 
-pywhatkit
+pip install pywhatkit
 
-pywikihow
+pip install pywikihow
