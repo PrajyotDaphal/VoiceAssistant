@@ -1,14 +1,14 @@
 import random
 import json
 import torch
-from extentions.Brain import NeuralNet
-from extentions.NeuralNetwork import bag_of_words ,tokenize
+from Train.Brain import NeuralNet
+from Train.NeuralNetwork import bag_of_words ,tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-with open("intents.json",'r') as json_data:
+with open("Dataset\\intents.json",'r') as json_data:
     intents = json.load(json_data)
 
-FILE = "TrainData.pth"
+FILE = "Dataset\\TrainData.pth"
 data = torch.load(FILE)
 
 input_size = data["input_size"]
@@ -26,10 +26,10 @@ model.eval()
 
 Name = "Rony"
 
-from extentions.Listen import Listen
-from extentions.Speak import Say
-from extentions.Task import InputExecution
-from extentions.Task import NonInputExecution
+from Extention.Listen import Listen
+from Extention.Speak import Say
+from Task import InputExecution
+from Task import NonInputExecution
 
 def Main():
 
